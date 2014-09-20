@@ -1,0 +1,34 @@
+{
+  "name": "geocluster",
+  "version": "0.1.0",
+  "description": "find clusters in coordinates",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yetzt/node-geocluster.git"
+  },
+  "keywords": [
+    "geo",
+    "cluster",
+    "geocluster",
+    "smeans",
+    "s-means",
+    "kmeans",
+    "c-means",
+    "clustering",
+    "coordinates",
+    "maps",
+    "statistics",
+    "math"
+  ],
+  "author": "yetzt <node@yetzt.me> (https://yetzt.me/)",
+  "licenses": [{
+    "type": "Public Domain",
+    "url": "http://unlicense.org/UNLICENSE"
+  }],
+  "bugs": {
+    "url": "https://github.com/yetzt/node-geocluster/issues"
+  },
+  "homepage": "https://github.com/yetzt/node-geocluster",
+  "readmeFilename": "readme.md"
+}
