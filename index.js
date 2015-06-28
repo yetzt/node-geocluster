@@ -96,7 +96,7 @@ geocluster.prototype._cluster = function(elements, bias) {
 			});
 			
 			// is the closest distance smaller than the stddev of elements?
-			if (closest_dist < threshold) {
+			if (closest_dist < threshold || closest_dist === 0) {
 
 				// put element into existing cluster
 				cluster_map[closest_cluster].elements.push(e);

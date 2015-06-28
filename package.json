@@ -1,6 +1,6 @@
 {
   "name": "geocluster",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "find clusters in coordinates",
   "main": "index.js",
   "repository": {
