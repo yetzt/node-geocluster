@@ -42,7 +42,7 @@ geocluster.prototype._cluster = function(elements, bias) {
 	var diff;
 
 	// calculate sum of differences
-	for (let i = 1; i < elements.length; i++) {
+	for (var i = 1; i < elements.length; i++) {
 		diff = self._dist(elements[i][0], elements[i][1], elements[i-1][0], elements[i-1][1]);
 		tot_diff += diff;
 		diffs.push(diff);
