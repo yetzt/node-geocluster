@@ -86,7 +86,7 @@ geocluster.prototype._cluster = function(elements, bias) {
 			cluster_map.forEach(function(cluster, ci){
 				
 				// distance to cluster
-				dist = self._dist(e[0], e[1], cluster_map[ci].centroid[0], cluster_map[ci].centroid[1]);
+				var dist = self._dist(e[0], e[1], cluster_map[ci].centroid[0], cluster_map[ci].centroid[1]);
 				
 				if (dist < closest_dist) {
 					closest_dist = dist;
